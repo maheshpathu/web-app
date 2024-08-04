@@ -3,10 +3,7 @@ on:
   push:
     branches:
       - main
-    path-ignore:
-      - 'helm/**'
-      - 'k8s/**'
-      - 'README.md'
+    
 jobs:
 
   build:
